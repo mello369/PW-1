@@ -1,0 +1,129 @@
+body{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	padding-top: 90px;
+	position: absolute;
+	/*background-image: url('background.svg');/*pixabay.com*/
+	/*
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    */
+    background-color: #f6f6f6;
+
+}
+/****START OF NAVBAR****/
+.navbar{
+	
+	height: 90px;
+	background-color: #999999;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index:1;
+	/*box-shadow:0 0 5px 5px #888888;*/
+
+
+}
+#logo{
+	height: 80px;
+	position: relative;
+	top: 5px;
+	left: 20px;
+}
+#site_name{
+	
+	position: absolute;
+	left: 110px;
+	font-size: 40px;
+	color: white;
+	padding: 0;
+	margin: 0;
+	top:15px;
+	
+}
+#subs{
+	color: white;
+	position: absolute;
+	left: 110px;
+	top:60px;
+}
+.btn{
+	position: absolute;
+	background-color: #aaaaaa;
+	color: white;
+	
+	top:20px;
+	font-size: 1.3rem;
+	border-radius: 10px;
+	box-shadow: 0;
+	height: 50px;
+	width: 90px;
+	border-width: 0 0 3px 0;
+}
+.btn:hover{
+	background-color: #8d93ab;
+}
+#home
+{
+	left: 825px;
+}
+#aboutus
+{
+	left: 925px;
+}
+#user
+{
+	left: 1025px;
+}
+#logout
+{
+	left: 1125px;
+}
+
+/*****END OF NAVBAR******/
+
+/*****START OF SIDE NAVBAR****/
+
+.sidenav
+{
+	position: absolute;
+	width: 250px;
+	height: 450px;
+	top:110px;
+
+	left: 1025px;
+	background-color: #ffc7c7;
+	border-radius: 10px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+    /*box-shadow:0 0 2px 2px #888888;*/
+}
+
+.sidebutton
+{
+	position: relative;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	background-color:#ffe2e2;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+/*	box-shadow:0 0 2px 2px #888888;*/
+}
+.sidebutton:hover
+{
+	background-color:#8d93ab;
+	width: 210px;
+
+}
+.nav-name
+{
+	padding-top:7px;
+	color: white;
+	text-align: center;
+	font-size: 1.5rem;
+}
