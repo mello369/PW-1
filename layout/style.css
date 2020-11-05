@@ -1,18 +1,4 @@
-body{
-	box-sizing: border-box;
-	margin:0;
-	padding:0;
-	padding-top: 90px;
-	position: absolute;
-	/*background-image: url('background.svg');/*pixabay.com*/
-	/*
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    */
-    background-color: #f6f6f6;
 
-}
 /****START OF NAVBAR****/
 .navbar{
 	
@@ -53,7 +39,7 @@ body{
 	position: absolute;
 	background-color: #aaaaaa;
 	color: white;
-	
+	padding: 5px;
 	top:20px;
 	font-size: 1.3rem;
 	border-radius: 10px;
@@ -84,6 +70,36 @@ body{
 
 /*****END OF NAVBAR******/
 
+/*****START OF BODY****/
+
+.bt{
+	
+	width: 200px;
+	height: 90px;
+	color: white;
+	margin-top: 4%;
+	margin-left: 3%;
+	transition:0.3s;
+	padding-left: 5%;
+	padding-top: 2%;
+	background:linear-gradient(to right,#ff416c,#ff4b2b);
+	border:1px solid #ccc;
+	border-radius: 10px;
+}
+
+.bt:hover{
+	transform: scale(1.05);
+	box-shadow: 5px 10px #d2d3c9;
+}
+
+.row{
+	display:flex;
+	flex-direction: row;
+	flex-flow: wrap;
+}
+
+/*****END OF BODY******/
+
 /*****START OF SIDE NAVBAR****/
 
 .sidenav
@@ -92,8 +108,8 @@ body{
 	width: 250px;
 	height: 450px;
 	top:110px;
-
-	left: 1025px;
+	left: 1100px;
+	
 	background-color: #ffc7c7;
 	border-radius: 10px;
 	border-top-right-radius: 0;
@@ -126,4 +142,16 @@ body{
 	color: white;
 	text-align: center;
 	font-size: 1.5rem;
+}
+
+.LeftBox{
+	margin-top: 90px;
+	margin-left: 50px;
+	float:left;
+	width:60%;
+
+}
+.RightBox{
+	float: right;
+	width:40%;
 }
